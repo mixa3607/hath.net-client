@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii still_alive_ok_1715295773.raw.txt https://192.168.1.239:1443/servercmd/still_alive//1715295773/62438645aedd95462b5b81725f6e8f64d74f90a5",
+  "CurlRetCode": 0,
+  "RawDumpFile": "still_alive_ok_1715295773.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "still_alive_ok_1715295773",
+  "Description": "Valid request",
+  "CreatedAt": "2024-05-09T23:02:54.0108582+00:00"
+}

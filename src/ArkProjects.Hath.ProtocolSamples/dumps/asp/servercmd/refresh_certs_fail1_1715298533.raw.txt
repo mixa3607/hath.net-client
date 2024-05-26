@@ -1,0 +1,24 @@
+== Info:   Trying 127.0.0.1:5001...
+== Info: Connected to 127.0.0.1 (127.0.0.1) port 5001
+=> Send header, 153 bytes (0x99)
+0000: GET /servercmd/refresh_certs//1715212133/77fbb858917e456f6189b0c
+0040: 130df35489cb3f421 HTTP/1.1
+005c: Host: 127.0.0.1:5001
+0072: User-Agent: curl/8.4.0
+008a: Accept: */*
+0097: 
+<= Recv header, 24 bytes (0x18)
+0000: HTTP/1.1 403 Forbidden
+<= Recv header, 20 bytes (0x14)
+0000: Content-Length: 28
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 09 May 2024 23:48:53 GMT
+<= Recv header, 17 bytes (0x11)
+0000: Server: Kestrel
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 28 bytes (0x1c)
+0000: An error has occurred. (403)
+== Info: Connection #0 to host 127.0.0.1 left intact

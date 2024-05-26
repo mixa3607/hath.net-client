@@ -1,0 +1,34 @@
+== Info:   Trying 192.168.1.239:1443...
+== Info: Connected to 192.168.1.239 (192.168.1.239) port 1443
+== Info: schannel: disabled automatic use of client certificate
+== Info: schannel: using IP address, SNI is not supported by OS.
+== Info: ALPN: curl offers http/1.1
+== Info: ALPN: server did not agree on a protocol. Uses default.
+== Info: using HTTP/1.x
+=> Send header, 155 bytes (0x9b)
+0000: GET /servercmd/still_alive//1715292832/f8023f6e47885593ccbf0cb57
+0040: d750d138548424a HTTP/1.1
+005a: Host: 192.168.1.239:1443
+0074: User-Agent: curl/8.4.0
+008c: Accept: */*
+0099: 
+<= Recv header, 32 bytes (0x20)
+0000: HTTP/1.1 403 Permission Denied
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 09 May 2024 22:13:53 GMT
+<= Recv header, 60 bytes (0x3c)
+0000: Server: Genetic Lifeform and Distributed Open Server 1.6.2
+<= Recv header, 19 bytes (0x13)
+0000: Connection: close
+<= Recv header, 45 bytes (0x2d)
+0000: Content-Type: text/html; charset=ISO-8859-1
+<= Recv header, 41 bytes (0x29)
+0000: Cache-Control: public, max-age=31536000
+<= Recv header, 20 bytes (0x14)
+0000: Content-Length: 28
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 28 bytes (0x1c)
+0000: An error has occurred. (403)
+== Info: Closing connection
+== Info: schannel: shutting down SSL/TLS connection with 192.168.1.239 port 1443

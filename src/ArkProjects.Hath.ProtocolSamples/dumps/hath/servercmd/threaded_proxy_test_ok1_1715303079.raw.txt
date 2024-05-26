@@ -1,0 +1,37 @@
+== Info:   Trying 192.168.1.239:1443...
+== Info: Connected to 192.168.1.239 (192.168.1.239) port 1443
+== Info: schannel: disabled automatic use of client certificate
+== Info: schannel: using IP address, SNI is not supported by OS.
+== Info: ALPN: curl offers http/1.1
+== Info: ALPN: server did not agree on a protocol. Uses default.
+== Info: using HTTP/1.x
+=> Send header, 306 bytes (0x132)
+0000: GET /servercmd/threaded_proxy_test/hostname=192.168.1.61;protoco
+0040: l=http;port=5001;testsize=5000000;testcount=5;testtime=171530307
+0080: 9;testkey=002b69e105731edc3c286fe1597fbcd737a750d0/1715303079/ad
+00c0: b6256d54eb2b03ad87101eff0d3863498451e6 HTTP/1.1
+00f1: Host: 192.168.1.239:1443
+010b: User-Agent: curl/8.4.0
+0123: Accept: */*
+0130: 
+== Info: schannel: server closed the connection
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 10 May 2024 01:04:40 GMT
+<= Recv header, 60 bytes (0x3c)
+0000: Server: Genetic Lifeform and Distributed Open Server 1.6.2
+<= Recv header, 19 bytes (0x13)
+0000: Connection: close
+<= Recv header, 45 bytes (0x2d)
+0000: Content-Type: text/html; charset=ISO-8859-1
+<= Recv header, 41 bytes (0x29)
+0000: Cache-Control: public, max-age=31536000
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 8
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 8 bytes (0x8)
+0000: OK:5-994
+== Info: Closing connection
+== Info: schannel: shutting down SSL/TLS connection with 192.168.1.239 port 1443

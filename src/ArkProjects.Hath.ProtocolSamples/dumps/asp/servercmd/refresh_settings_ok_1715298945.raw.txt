@@ -1,0 +1,28 @@
+== Info:   Trying 127.0.0.1:1443...
+== Info: Connected to 127.0.0.1 (127.0.0.1) port 1443
+== Info: schannel: disabled automatic use of client certificate
+== Info: schannel: using IP address, SNI is not supported by OS.
+== Info: ALPN: curl offers http/1.1
+== Info: ALPN: server accepted http/1.1
+== Info: using HTTP/1.1
+=> Send header, 156 bytes (0x9c)
+0000: GET /servercmd/refresh_settings//1715298945/4f21d54d6f5538e39d6e
+0040: 536af666345bc1958922 HTTP/1.1
+005f: Host: 127.0.0.1:1443
+0075: User-Agent: curl/8.4.0
+008d: Accept: */*
+009a: 
+== Info: schannel: remote party requests renegotiation
+== Info: schannel: renegotiating SSL/TLS connection
+== Info: schannel: SSL/TLS connection renegotiated
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 09 May 2024 23:55:45 GMT
+<= Recv header, 17 bytes (0x11)
+0000: Server: Kestrel
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host 127.0.0.1 left intact

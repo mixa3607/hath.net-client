@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "--max-time 60 -k -o - --trace-ascii speed_test_ok1_1715300055.raw.txt https://192.168.1.239:1443/servercmd/speed_test/testsize=/1715300055/503c25f1f26bfb69002f2e67e3c8e1d6a1f2700e",
+  "CurlRetCode": 0,
+  "RawDumpFile": "speed_test_ok1_1715300055.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "speed_test_ok1_1715300055",
+  "Description": "java throw exception / asp return 1000000 bytes",
+  "CreatedAt": "2024-05-10T00:14:15.3055943+00:00"
+}

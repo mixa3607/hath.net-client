@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii still_alive_fail1_1715298287.raw.txt http://127.0.0.1:5001/servercmd/still_alive//1715211887/02dae1414deb55811e3126e2451c0f13534b713e",
+  "CurlRetCode": 0,
+  "RawDumpFile": "still_alive_fail1_1715298287.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "still_alive_fail1_1715298287",
+  "Description": "Invalid time",
+  "CreatedAt": "2024-05-09T23:44:47.4804813+00:00"
+}

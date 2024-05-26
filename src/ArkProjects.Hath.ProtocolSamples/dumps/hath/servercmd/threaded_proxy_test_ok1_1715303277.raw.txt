@@ -1,0 +1,37 @@
+== Info:   Trying 192.168.1.239:1443...
+== Info: Connected to 192.168.1.239 (192.168.1.239) port 1443
+== Info: schannel: disabled automatic use of client certificate
+== Info: schannel: using IP address, SNI is not supported by OS.
+== Info: ALPN: curl offers http/1.1
+== Info: ALPN: server did not agree on a protocol. Uses default.
+== Info: using HTTP/1.x
+=> Send header, 330 bytes (0x14a)
+0000: GET /servercmd/threaded_proxy_test/hostname=localhost.oejkfloyxy
+0040: nl.hath.network;protocol=https;port=1443;testsize=5000000;testco
+0080: unt=5;testtime=1715303277;testkey=e89d5ecbc6995b53f601a43a8cb96a
+00c0: 53a5916b9d/1715303277/fdc05fac852cb0f3a007f9d433f0f9a4b0fcfa56 H
+0100: TTP/1.1
+0109: Host: 192.168.1.239:1443
+0123: User-Agent: curl/8.4.0
+013b: Accept: */*
+0148: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 10 May 2024 01:07:58 GMT
+<= Recv header, 60 bytes (0x3c)
+0000: Server: Genetic Lifeform and Distributed Open Server 1.6.2
+<= Recv header, 19 bytes (0x13)
+0000: Connection: close
+<= Recv header, 45 bytes (0x2d)
+0000: Content-Type: text/html; charset=ISO-8859-1
+<= Recv header, 41 bytes (0x29)
+0000: Cache-Control: public, max-age=31536000
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 8
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 8 bytes (0x8)
+0000: OK:5-366
+== Info: Closing connection
+== Info: schannel: shutting down SSL/TLS connection with 192.168.1.239 port 1443

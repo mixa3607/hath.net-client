@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "--max-time 60 -k -o - --trace-ascii speed_test_ok1_1715300395.raw.txt https://127.0.0.1:1443/servercmd/speed_test/testsize=/1715300395/43889e715a8d896f30ef90ac8edac6b3039df8ac",
+  "CurlRetCode": 0,
+  "RawDumpFile": "speed_test_ok1_1715300395.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "speed_test_ok1_1715300395",
+  "Description": "java ret INVALID_COMMAND / asp return 1000000 bytes",
+  "CreatedAt": "2024-05-10T00:19:56.090418+00:00"
+}

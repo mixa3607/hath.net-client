@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "--max-time 60 -k -o - --trace-ascii threaded_proxy_test_ok1_1715303277.raw.txt https://192.168.1.239:1443/servercmd/threaded_proxy_test/hostname=localhost.oejkfloyxynl.hath.network;protocol=https;port=1443;testsize=5000000;testcount=5;testtime=1715303277;testkey=e89d5ecbc6995b53f601a43a8cb96a53a5916b9d/1715303277/fdc05fac852cb0f3a007f9d433f0f9a4b0fcfa56",
+  "CurlRetCode": 0,
+  "RawDumpFile": "threaded_proxy_test_ok1_1715303277.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "threaded_proxy_test_ok1_1715303277",
+  "Description": "Valid request",
+  "CreatedAt": "2024-05-10T01:07:58.0487242+00:00"
+}

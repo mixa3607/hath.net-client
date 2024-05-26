@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii refresh_settings_fail1_1715298965.raw.txt https://192.168.1.239:1443/servercmd/refresh_settings//1715212565/9d361eb1f0fd19824ddfb7a8b9115202e35d7f9e",
+  "CurlRetCode": 0,
+  "RawDumpFile": "refresh_settings_fail1_1715298965.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "refresh_settings_fail1_1715298965",
+  "Description": "Invalid time",
+  "CreatedAt": "2024-05-09T23:56:05.376196+00:00"
+}

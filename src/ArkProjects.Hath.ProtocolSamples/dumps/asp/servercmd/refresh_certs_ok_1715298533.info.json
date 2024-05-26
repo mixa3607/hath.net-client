@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii refresh_certs_ok_1715298533.raw.txt http://127.0.0.1:5001/servercmd/refresh_certs//1715298533/80c4a4b5fd2637059f5a7bb140a2ff851decd252",
+  "CurlRetCode": 0,
+  "RawDumpFile": "refresh_certs_ok_1715298533.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "refresh_certs_ok_1715298533",
+  "Description": "Valid request",
+  "CreatedAt": "2024-05-09T23:48:53.4391194+00:00"
+}

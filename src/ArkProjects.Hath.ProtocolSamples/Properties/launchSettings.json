@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArkProjects.Hath.ProtocolSamples": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}

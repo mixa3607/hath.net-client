@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkProjects.Hath.ClientApi", "ArkProjects.Hath.ClientApi\ArkProjects.Hath.ClientApi.csproj", "{A7A2A8A2-9B58-4AAE-8CF4-F6188D65D595}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkProjects.Hath.WebService", "ArkProjects.Hath.WebService\ArkProjects.Hath.WebService.csproj", "{79782CD1-0585-4674-A596-4B55F2255D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkProjects.Hath.ProtocolSamples", "ArkProjects.Hath.ProtocolSamples\ArkProjects.Hath.ProtocolSamples.csproj", "{13A1959E-4D34-4091-86C1-610650AA688F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7A2A8A2-9B58-4AAE-8CF4-F6188D65D595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A2A8A2-9B58-4AAE-8CF4-F6188D65D595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A2A8A2-9B58-4AAE-8CF4-F6188D65D595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A2A8A2-9B58-4AAE-8CF4-F6188D65D595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79782CD1-0585-4674-A596-4B55F2255D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79782CD1-0585-4674-A596-4B55F2255D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79782CD1-0585-4674-A596-4B55F2255D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79782CD1-0585-4674-A596-4B55F2255D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A1959E-4D34-4091-86C1-610650AA688F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A1959E-4D34-4091-86C1-610650AA688F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A1959E-4D34-4091-86C1-610650AA688F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A1959E-4D34-4091-86C1-610650AA688F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F66FF3CA-3E5F-453C-A517-67B228F7E0D0}
+	EndGlobalSection
+EndGlobal

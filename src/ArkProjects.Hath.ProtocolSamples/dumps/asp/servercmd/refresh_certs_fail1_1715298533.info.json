@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii refresh_certs_fail1_1715298533.raw.txt http://127.0.0.1:5001/servercmd/refresh_certs//1715212133/77fbb858917e456f6189b0c130df35489cb3f421",
+  "CurlRetCode": 0,
+  "RawDumpFile": "refresh_certs_fail1_1715298533.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "refresh_certs_fail1_1715298533",
+  "Description": "Invalid time",
+  "CreatedAt": "2024-05-09T23:48:53.55004+00:00"
+}

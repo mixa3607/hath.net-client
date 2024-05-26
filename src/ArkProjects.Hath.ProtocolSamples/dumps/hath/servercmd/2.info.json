@@ -1,0 +1,9 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii 2.raw.txt https://192.168.1.239:1443/servercmd/still_alive//1715292832/f8023f6e47885593ccbf0cb57d750d138548424a",
+  "CurlRetCode": 0,
+  "RawDumpFile": "2.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "All ok but not in allowed ips",
+  "CreatedAt": "2024-05-09T22:13:52.9467061+00:00"
+}

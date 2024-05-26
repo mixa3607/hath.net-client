@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii still_alive_fail1_1715295774.raw.txt https://192.168.1.239:1443/servercmd/still_alive//1715209374/32ab40f7c8e37f0ebe2244ec6c59ae94e1a7d29a",
+  "CurlRetCode": 0,
+  "RawDumpFile": "still_alive_fail1_1715295774.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "still_alive_fail1_1715295774",
+  "Description": "Invalid signature",
+  "CreatedAt": "2024-05-09T23:02:54.1835495+00:00"
+}

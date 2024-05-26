@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "-k --trace-ascii refresh_settings_ok_1715298945.raw.txt https://127.0.0.1:1443/servercmd/refresh_settings//1715298945/4f21d54d6f5538e39d6e536af666345bc1958922",
+  "CurlRetCode": 0,
+  "RawDumpFile": "refresh_settings_ok_1715298945.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "refresh_settings_ok_1715298945",
+  "Description": "Valid request",
+  "CreatedAt": "2024-05-09T23:55:46.1045412+00:00"
+}

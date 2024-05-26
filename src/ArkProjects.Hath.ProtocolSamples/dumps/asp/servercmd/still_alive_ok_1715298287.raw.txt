@@ -1,0 +1,24 @@
+== Info:   Trying 127.0.0.1:5001...
+== Info: Connected to 127.0.0.1 (127.0.0.1) port 5001
+=> Send header, 151 bytes (0x97)
+0000: GET /servercmd/still_alive//1715298287/9cce5d6f3602d0141e7da2d42
+0040: fd49522e5a3dc72 HTTP/1.1
+005a: Host: 127.0.0.1:5001
+0070: User-Agent: curl/8.4.0
+0088: Accept: */*
+0095: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 20 bytes (0x14)
+0000: Content-Length: 36
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 09 May 2024 23:44:46 GMT
+<= Recv header, 17 bytes (0x11)
+0000: Server: Kestrel
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 36 bytes (0x24)
+0000: I feel FANTASTIC and I'm still alive
+== Info: Connection #0 to host 127.0.0.1 left intact

@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "--max-time 60 -k -o - --trace-ascii threaded_proxy_test_ok1_1715303079.raw.txt https://192.168.1.239:1443/servercmd/threaded_proxy_test/hostname=192.168.1.61;protocol=http;port=5001;testsize=5000000;testcount=5;testtime=1715303079;testkey=002b69e105731edc3c286fe1597fbcd737a750d0/1715303079/adb6256d54eb2b03ad87101eff0d3863498451e6",
+  "CurlRetCode": 0,
+  "RawDumpFile": "threaded_proxy_test_ok1_1715303079.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "threaded_proxy_test_ok1_1715303079",
+  "Description": "Valid request",
+  "CreatedAt": "2024-05-10T01:04:39.5063509+00:00"
+}

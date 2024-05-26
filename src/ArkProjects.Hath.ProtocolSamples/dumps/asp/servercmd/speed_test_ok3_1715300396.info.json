@@ -1,0 +1,10 @@
+{
+  "Version": 1,
+  "CurlArgs": "--max-time 60 -k -o - --trace-ascii speed_test_ok3_1715300396.raw.txt https://127.0.0.1:1443/servercmd/speed_test/testsize=50/1715300396/c9d5bdf34b1df49ec28fb01b6bd8db9b9aabac9b",
+  "CurlRetCode": 0,
+  "RawDumpFile": "speed_test_ok3_1715300396.raw.txt",
+  "FilteredDumpFile": null,
+  "Name": "speed_test_ok3_1715300396",
+  "Description": "Valid request 50 bytes",
+  "CreatedAt": "2024-05-10T00:19:56.7085062+00:00"
+}
