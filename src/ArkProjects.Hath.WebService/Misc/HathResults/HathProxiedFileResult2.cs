@@ -172,6 +172,7 @@ public class HathProxiedFileResult2 : IHathFileResult
                 response.ContentType = RequestedFile.GetMimeType();
                 response.ContentLength = mem.Length;
                 response.Headers.CacheControl = "public, max-age=31536000";
+                response.Headers.ContentDisposition = "inline";
                 continue;
             }
             else if (status == Status.ErrorOnFetchFileHeaders)

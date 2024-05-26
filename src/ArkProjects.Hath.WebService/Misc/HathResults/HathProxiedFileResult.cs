@@ -76,6 +76,7 @@ public class HathProxiedFileResult : IResult
             response.ContentType = RequestedFile.GetMimeType();
             response.ContentLength = _fileBytes.Length;
             response.Headers.CacheControl = "public, max-age=31536000";
+            response.Headers.ContentDisposition = "inline";
 
             HathProxiedFileCopyToResponse(response, ct);
             await response.BodyWriter.FlushAsync(ct);

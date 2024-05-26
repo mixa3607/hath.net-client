@@ -1,4 +1,5 @@
 using ArkProjects.Hath.WebService.Services;
+using Microsoft.Net.Http.Headers;
 
 namespace ArkProjects.Hath.WebService.Misc;
 
@@ -48,6 +49,7 @@ public class HathPhysicalFileResult : IHathFileResult
         response.ContentType = RequestedFile.GetMimeType();
         response.ContentLength = fileStream.Length;
         response.Headers.CacheControl = "public, max-age=31536000";
+        response.Headers.ContentDisposition = "inline";
 
         await HathPhysicalFileCopyToResponse(fileStream, response, ct);
         await response.BodyWriter.FlushAsync(ct);
